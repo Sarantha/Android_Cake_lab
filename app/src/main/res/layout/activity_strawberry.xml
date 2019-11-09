@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroud"
+    android:padding="20dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Red Strawberry "
+                    android:textColor="@color/colorMainText2"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="34dp"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Cake"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="@color/colorMainText"
+                    android:textStyle="bold"
+                    android:textSize="34dp"/>
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/myImageView1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/redstrawberrycake">
+            </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                android:paddingLeft="12dp">
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_timer_black_24dp">
+                </ImageView>
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_check_box_black_24dp"
+                    android:layout_marginLeft="90dp">
+                </ImageView>
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_history_black_24dp"
+                    android:layout_marginLeft="90dp"></ImageView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="25dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Prep"
+                    android:textColor="#fff">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ready In"
+                    android:textColor="#fff"
+                    android:paddingLeft="110dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cook"
+                    android:textColor="#fff"
+                    android:paddingLeft="110dp">
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="25dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="40 m"
+                    android:textColor="#fff">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  2 h"
+                    android:textColor="#fff"
+                    android:paddingLeft="120dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="30 m"
+                    android:textColor="#fff"
+                    android:paddingLeft="130dp">
+                </TextView>
+            </LinearLayout>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true">
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:stretchColumns="1">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:padding="10dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"
+                            android:text="Ingrediants"
+                            android:textSize="15sp"></TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="10dp"
+                            android:textColor="#fff"
+                            android:text=" 3 cups all-purpose flour"
+                            android:textSize="15sp"></TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"
+                            android:text=" 1 1/2 tablespoons unsweetened cocoa powder"
+                            android:textSize="15sp"></TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"
+                            android:text=" 1 teaspoon baking soda"
+                            android:textSize="15sp"></TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"
+                            android:text=" 1/2 teaspoon salt"
+                            android:textSize="15sp"></TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"
+                            android:text=" 1/2 cup unsalted butter, softened"
+                            android:textSize="15sp"></TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"
+                            android:text=" 1 1/2 cups white sugar"
+                            android:textSize="15sp"></TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"
+                            android:text=" 1 cup vegetable oil"
+                            android:textSize="15sp"></TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"
+                            android:text=" 4 eggs, separated"
+                            android:textSize="15sp"></TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"
+                            android:text=" 1 1/2 tablespoons vanilla extract"
+                            android:textSize="15sp"></TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"
+                            android:text=" 1 teaspoon white vinegar"
+                            android:textSize="15sp"></TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"
+                            android:text=" 1 drop food coloring, or as desired"
+                            android:textSize="15sp"></TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"
+                            android:text=" 1 cup buttermilk"
+                            android:textSize="15sp"></TextView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:padding="10dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="10dp"
+                            android:textColor="#fff"
+                            android:text=" 3 teaspoons baking powder"
+                            android:textSize="15sp"></TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"
+                            android:text=" 1 cup white sugar"
+                            android:textSize="15sp"></TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"
+                            android:text=" 1/4 cup all-purpose flour"
+                            android:textSize="15sp"></TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"
+                            android:text=" 1 1/2 cups whole milk"
+                            android:textSize="15sp"></TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"
+                            android:text=" 1 tablespoon lemon juice"
+                            android:textSize="15sp"></TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"
+                            android:text=" 1 teaspoon vanilla extract"
+                            android:textSize="15sp"></TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"
+                            android:text=" 5 ounces cream cheese"
+                            android:textSize="15sp"></TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"
+                            android:text=" 1/2 cup butter, softened"
+                            android:textSize="15sp"></TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"
+                            android:text=" 7 fresh strawberries, sliced"
+                            android:textSize="15sp"></TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:padding="10dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"
+                            android:text="Procedure"
+                            android:textSize="15sp"></TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="10dp"
+                            android:textColor="#fff"
+                            android:text="Preheat the oven to 350 degrees F (175 degrees C). Lightly grease two 9-inch cake pans and sprinkle with flour if pans don't have a smooth bottom."
+                            android:textSize="15sp"></TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="10dp"
+                            android:textColor="#fff"
+                            android:text="Whisk 3 cups flour, cocoa powder, baking soda, and salt together in a bowl."
+                            android:textSize="15sp"></TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="10dp"
+                            android:textColor="#fff"
+                            android:text="Beat 1/2 cup butter in a bowl using an electric mixer until creamy and smooth. Add 1 1/2 cups sugar and beat until fairly creamy, about 2 minutes. Pour in vegetable oil and beat until combined, about 30 seconds more."
+                            android:textSize="15sp"></TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="10dp"
+                            android:textColor="#fff"
+                            android:text="Beat in egg yolks, vanilla extract, vinegar, and enough food coloring to reach desired color. Pour in flour mixture, alternating with buttermilk, on low speed until just incorporated, making sure to not overmix the batter."
+                            android:textSize="15sp"></TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="10dp"
+                            android:textColor="#fff"
+                            android:text="Beat egg whites until thick and frothy in a separate bowl; fold into the batter. Pour batter into the prepared cake pans."
+                            android:textSize="15sp"></TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="10dp"
+                            android:textColor="#fff"
+                            android:text="Bake in the preheated oven until a toothpick inserted into the center comes out clean, 30 to 35 minutes. Be careful not to overbake. Let cakes cool in the pans for 10 to 20 minutes before transferring to a wire rack or serving plate to cool completely."
+                            android:textSize="15sp"></TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="10dp"
+                            android:textColor="#fff"
+                            android:text="Whisk sugar, flour, and salt in a saucepan to combine. Whisk in milk gradually, making sure there are no lumps. Place saucepan over medium heat. Stir until thickened. Pour mixture into an airtight container and refrigerate until completely cool, about 1 hour."
+                            android:textSize="15sp"></TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="10dp"
+                            android:textColor="#fff"
+                            android:text="Place frosting in a mixing bowl. Add lemon juice and vanilla extract. Mix with an electric mixer on high speed to combine. Whip in cream cheese, 1 tablespoon at a time. Whip in butter and continue to mix until you have a really thick frosting. Place into an airtight container and refrigerate if not using immediately."
+                            android:textSize="15sp"></TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="10dp"
+                            android:textColor="#fff"
+                            android:text="Frost cooled cake and place sliced strawberries between the 2 layers."
+                            android:textSize="15sp"></TextView>
+                    </LinearLayout>
+
+                </TableLayout>
+            </ScrollView>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>
